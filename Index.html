@@ -8,26 +8,26 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<div class="container text-center">
+<div class="container">
       
   <img class="profile  border border-success border-4 rounded-circle" src="img/foto1.jpg" alt="foto1">
-  <div class="border rounded-pill bg-light mt-5 p-2 text-center" >
+  <div class="border rounded-pill bg-light text-center mt-3 " >
     <h1 class="text-success m-3 "><img src="img/images.png" alt="logo" style="height:50px;"><u>
-    kami dan sekeluarga mengucapkan...
+    kami dan sekeluarga mengucapkan... <br>
     <button onclick="playAudio()" class="btn btn-primary mt-3">silahkan klik tombol</button>
  </u></h1>
   </div>
 
   <div class="border bg-light m-3 text-start p-2">
-    <p>
-"Selamat Idul Fitri! Semoga kebahagiaan, perdamaian, dan berkah selalu menyertai kita semua di hari kemenangan ini."</p>
+    <p>selamat hari raya idulfitri mohon maaf dan lahir batin, bila ada kesalahan-kami kami mohon maaf sebesar besarnya.</p>
   </div>
   
-  <!-- Sembunyikan pemutar audio bawaan -->
-  <audio id="audioPlayer" style="display: none;">
-    <source src="audio/ramadan.mp3" type="audio/mp3">
-  </audio>
+  <audio id="audioPlayer" style="display: none;" controls>
+  <source src="http://127.0.0.1:5500/audio/ramadan.mp3" type="audio/mp3">
+</audio>
 
+  
+  
 </div>
 <script>
 function playAudio() {
